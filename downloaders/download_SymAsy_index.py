@@ -29,10 +29,10 @@ def download_SymAsyH(download_years, sym_h_folder):
             with open(file_path, 'w') as file:
                 file.write(response.text)
             
-            print(f"Downloaded SYM-H data for {year}.")
+            print(f"Downloaded data for {year}.")
         
         except requests.RequestException as e:
-            print(f"Failed to download data for {year}: {e}")
+            print(f"Failed to download  {year}: {e}")
 #%%
 if __name__ == "__main__":
     # Set the download years and the folder to save the data
