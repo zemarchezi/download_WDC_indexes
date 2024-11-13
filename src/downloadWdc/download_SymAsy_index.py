@@ -36,7 +36,7 @@ def download_SymAsyH(download_years, sym_h_folder):
 #%%
 if __name__ == "__main__":
     # Set the download years and the folder to save the data
-    download_years = (2023, 2025)
+    download_years = (1995, 1996)
 
 
     home = Path.home()
